@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4917FB253C4A29000CEFB0 /* DSBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4917FA253C4A29000CEFB0 /* DSBannerView.swift */; };
+		4B4917FD253C4A6C000CEFB0 /* DSPhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4917FC253C4A6C000CEFB0 /* DSPhotoListView.swift */; };
+		4B491800253C4C21000CEFB0 /* DSPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4917FE253C4C21000CEFB0 /* DSPhotoCollectionViewCell.swift */; };
+		4B491801253C4C21000CEFB0 /* DSPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4917FF253C4C21000CEFB0 /* DSPhotoCollectionViewCell.xib */; };
+		4B491806253C9BE7000CEFB0 /* DSPhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B491805253C9BE7000CEFB0 /* DSPhotoDetailView.swift */; };
+		4B491808253C9BF1000CEFB0 /* DSPhotoDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B491807253C9BF1000CEFB0 /* DSPhotoDetailView.xib */; };
+		4B49180B253CAC8B000CEFB0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B49180A253CAC8B000CEFB0 /* Roboto-Regular.ttf */; };
+		4B49180D253D5ACA000CEFB0 /* DSSIngltonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49180C253D5ACA000CEFB0 /* DSSIngltonInfo.swift */; };
+		4B491811253D5C11000CEFB0 /* CustomFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B49180F253D5C11000CEFB0 /* CustomFooterView.xib */; };
+		4B491812253D5C11000CEFB0 /* CustomFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B491810253D5C11000CEFB0 /* CustomFooterView.swift */; };
+		4B6609CD253B4CEB0005A374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609CC253B4CEB0005A374 /* AppDelegate.swift */; };
+		4B6609CF253B4CEB0005A374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609CE253B4CEB0005A374 /* SceneDelegate.swift */; };
+		4B6609D1253B4CEB0005A374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609D0253B4CEB0005A374 /* ViewController.swift */; };
+		4B6609D4253B4CEB0005A374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6609D2253B4CEB0005A374 /* Main.storyboard */; };
+		4B6609D6253B4CF10005A374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6609D5253B4CF10005A374 /* Assets.xcassets */; };
+		4B6609D9253B4CF10005A374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6609D7253B4CF10005A374 /* LaunchScreen.storyboard */; };
+		4B6609EB253B595B0005A374 /* GenericAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609E3253B595B0005A374 /* GenericAPIClient.swift */; };
+		4B6609EC253B595B0005A374 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609E4253B595B0005A374 /* Result.swift */; };
+		4B6609EF253B595B0005A374 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609E8253B595B0005A374 /* Endpoint.swift */; };
+		4B6609F1253B59820005A374 /* DSNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609F0253B59820005A374 /* DSNetworking.swift */; };
+		4B6609F3253B59A00005A374 /* DSDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609F2253B59A00005A374 /* DSDataProvider.swift */; };
+		4B6609F5253B5A140005A374 /* DSPhotoListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6609F4253B5A140005A374 /* DSPhotoListInfo.swift */; };
+		80409DEB02FE7CFB1C06133C /* Pods_DoSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A0A7ADA4CCB50E2153DCFF /* Pods_DoSplash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43A0A7ADA4CCB50E2153DCFF /* Pods_DoSplash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoSplash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4917FA253C4A29000CEFB0 /* DSBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSBannerView.swift; sourceTree = "<group>"; };
+		4B4917FC253C4A6C000CEFB0 /* DSPhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPhotoListView.swift; sourceTree = "<group>"; };
+		4B4917FE253C4C21000CEFB0 /* DSPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B4917FF253C4C21000CEFB0 /* DSPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		4B491805253C9BE7000CEFB0 /* DSPhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPhotoDetailView.swift; sourceTree = "<group>"; };
+		4B491807253C9BF1000CEFB0 /* DSPhotoDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSPhotoDetailView.xib; sourceTree = "<group>"; };
+		4B49180A253CAC8B000CEFB0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		4B49180C253D5ACA000CEFB0 /* DSSIngltonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSSIngltonInfo.swift; sourceTree = "<group>"; };
+		4B49180F253D5C11000CEFB0 /* CustomFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomFooterView.xib; sourceTree = "<group>"; };
+		4B491810253D5C11000CEFB0 /* CustomFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFooterView.swift; sourceTree = "<group>"; };
+		4B6609C9253B4CEB0005A374 /* DoSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6609CC253B4CEB0005A374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B6609CE253B4CEB0005A374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B6609D0253B4CEB0005A374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B6609D3253B4CEB0005A374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B6609D5253B4CF10005A374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B6609D8253B4CF10005A374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B6609DA253B4CF10005A374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6609E3253B595B0005A374 /* GenericAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericAPIClient.swift; sourceTree = "<group>"; };
+		4B6609E4253B595B0005A374 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		4B6609E8253B595B0005A374 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		4B6609F0253B59820005A374 /* DSNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSNetworking.swift; sourceTree = "<group>"; };
+		4B6609F2253B59A00005A374 /* DSDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDataProvider.swift; sourceTree = "<group>"; };
+		4B6609F4253B5A140005A374 /* DSPhotoListInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPhotoListInfo.swift; sourceTree = "<group>"; };
+		6D5B88E1044C4CC741D4A901 /* Pods-DoSplash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoSplash.debug.xcconfig"; path = "Target Support Files/Pods-DoSplash/Pods-DoSplash.debug.xcconfig"; sourceTree = "<group>"; };
+		E77C131828749E35C8753534 /* Pods-DoSplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoSplash.release.xcconfig"; path = "Target Support Files/Pods-DoSplash/Pods-DoSplash.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B6609C6253B4CEB0005A374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80409DEB02FE7CFB1C06133C /* Pods_DoSplash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479C0FDDC8A14B06A947E564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A0A7ADA4CCB50E2153DCFF /* Pods_DoSplash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4917F9253C49FD000CEFB0 /* PhotoListView */ = {
+			isa = PBXGroup;
+			children = (
+				4B4917FA253C4A29000CEFB0 /* DSBannerView.swift */,
+				4B4917FC253C4A6C000CEFB0 /* DSPhotoListView.swift */,
+				4B491805253C9BE7000CEFB0 /* DSPhotoDetailView.swift */,
+				4B491807253C9BF1000CEFB0 /* DSPhotoDetailView.xib */,
+			);
+			path = PhotoListView;
+			sourceTree = "<group>";
+		};
+		4B491809253CAC78000CEFB0 /* Custom Font */ = {
+			isa = PBXGroup;
+			children = (
+				4B49180A253CAC8B000CEFB0 /* Roboto-Regular.ttf */,
+			);
+			path = "Custom Font";
+			sourceTree = "<group>";
+		};
+		4B49180E253D5BFD000CEFB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B491813253D64BF000CEFB0 /* Cells */,
+				4B491810253D5C11000CEFB0 /* CustomFooterView.swift */,
+				4B49180F253D5C11000CEFB0 /* CustomFooterView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B491813253D64BF000CEFB0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B4917FE253C4C21000CEFB0 /* DSPhotoCollectionViewCell.swift */,
+				4B4917FF253C4C21000CEFB0 /* DSPhotoCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B6609C0253B4CEA0005A374 = {
+			isa = PBXGroup;
+			children = (
+				4B49180E253D5BFD000CEFB0 /* Views */,
+				4B491809253CAC78000CEFB0 /* Custom Font */,
+				4B4917F9253C49FD000CEFB0 /* PhotoListView */,
+				4B6609E0253B595B0005A374 /* Networking */,
+				4B6609CB253B4CEB0005A374 /* DoSplash */,
+				4B6609CA253B4CEB0005A374 /* Products */,
+				4FCE963C8D01BCC1D0D2D86D /* Pods */,
+				479C0FDDC8A14B06A947E564 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B6609CA253B4CEB0005A374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B6609C9253B4CEB0005A374 /* DoSplash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B6609CB253B4CEB0005A374 /* DoSplash */ = {
+			isa = PBXGroup;
+			children = (
+				4B6609CC253B4CEB0005A374 /* AppDelegate.swift */,
+				4B6609CE253B4CEB0005A374 /* SceneDelegate.swift */,
+				4B6609D0253B4CEB0005A374 /* ViewController.swift */,
+				4B6609D2253B4CEB0005A374 /* Main.storyboard */,
+				4B6609D5253B4CF10005A374 /* Assets.xcassets */,
+				4B6609D7253B4CF10005A374 /* LaunchScreen.storyboard */,
+				4B6609DA253B4CF10005A374 /* Info.plist */,
+			);
+			path = DoSplash;
+			sourceTree = "<group>";
+		};
+		4B6609E0253B595B0005A374 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4B6609E3253B595B0005A374 /* GenericAPIClient.swift */,
+				4B6609E4253B595B0005A374 /* Result.swift */,
+				4B6609E5253B595B0005A374 /* Models */,
+				4B6609E8253B595B0005A374 /* Endpoint.swift */,
+				4B6609F0253B59820005A374 /* DSNetworking.swift */,
+				4B6609F2253B59A00005A374 /* DSDataProvider.swift */,
+				4B49180C253D5ACA000CEFB0 /* DSSIngltonInfo.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4B6609E5253B595B0005A374 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B6609F4253B5A140005A374 /* DSPhotoListInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FCE963C8D01BCC1D0D2D86D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5B88E1044C4CC741D4A901 /* Pods-DoSplash.debug.xcconfig */,
+				E77C131828749E35C8753534 /* Pods-DoSplash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B6609C8253B4CEB0005A374 /* DoSplash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6609DD253B4CF10005A374 /* Build configuration list for PBXNativeTarget "DoSplash" */;
+			buildPhases = (
+				EBB91F66442BCC4C87065B54 /* [CP] Check Pods Manifest.lock */,
+				4B6609C5253B4CEB0005A374 /* Sources */,
+				4B6609C6253B4CEB0005A374 /* Frameworks */,
+				4B6609C7253B4CEB0005A374 /* Resources */,
+				26517BE30D8261254622A532 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoSplash;
+			productName = DoSplash;
+			productReference = 4B6609C9253B4CEB0005A374 /* DoSplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B6609C1253B4CEA0005A374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Komal;
+				TargetAttributes = {
+					4B6609C8253B4CEB0005A374 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B6609C4253B4CEA0005A374 /* Build configuration list for PBXProject "DoSplash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B6609C0253B4CEA0005A374;
+			productRefGroup = 4B6609CA253B4CEB0005A374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B6609C8253B4CEB0005A374 /* DoSplash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B6609C7253B4CEB0005A374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B491811253D5C11000CEFB0 /* CustomFooterView.xib in Resources */,
+				4B49180B253CAC8B000CEFB0 /* Roboto-Regular.ttf in Resources */,
+				4B6609D9253B4CF10005A374 /* LaunchScreen.storyboard in Resources */,
+				4B491808253C9BF1000CEFB0 /* DSPhotoDetailView.xib in Resources */,
+				4B6609D6253B4CF10005A374 /* Assets.xcassets in Resources */,
+				4B491801253C4C21000CEFB0 /* DSPhotoCollectionViewCell.xib in Resources */,
+				4B6609D4253B4CEB0005A374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26517BE30D8261254622A532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoSplash/Pods-DoSplash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoSplash/Pods-DoSplash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoSplash/Pods-DoSplash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB91F66442BCC4C87065B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoSplash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B6609C5253B4CEB0005A374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B49180D253D5ACA000CEFB0 /* DSSIngltonInfo.swift in Sources */,
+				4B6609D1253B4CEB0005A374 /* ViewController.swift in Sources */,
+				4B6609EB253B595B0005A374 /* GenericAPIClient.swift in Sources */,
+				4B6609F5253B5A140005A374 /* DSPhotoListInfo.swift in Sources */,
+				4B6609CD253B4CEB0005A374 /* AppDelegate.swift in Sources */,
+				4B6609CF253B4CEB0005A374 /* SceneDelegate.swift in Sources */,
+				4B4917FB253C4A29000CEFB0 /* DSBannerView.swift in Sources */,
+				4B4917FD253C4A6C000CEFB0 /* DSPhotoListView.swift in Sources */,
+				4B491806253C9BE7000CEFB0 /* DSPhotoDetailView.swift in Sources */,
+				4B491812253D5C11000CEFB0 /* CustomFooterView.swift in Sources */,
+				4B6609F3253B59A00005A374 /* DSDataProvider.swift in Sources */,
+				4B6609EF253B595B0005A374 /* Endpoint.swift in Sources */,
+				4B6609EC253B595B0005A374 /* Result.swift in Sources */,
+				4B491800253C4C21000CEFB0 /* DSPhotoCollectionViewCell.swift in Sources */,
+				4B6609F1253B59820005A374 /* DSNetworking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B6609D2253B4CEB0005A374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B6609D3253B4CEB0005A374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B6609D7253B4CF10005A374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B6609D8253B4CF10005A374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B6609DB253B4CF10005A374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B6609DC253B4CF10005A374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B6609DE253B4CF10005A374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5B88E1044C4CC741D4A901 /* Pods-DoSplash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoSplash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Komal.DoSplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B6609DF253B4CF10005A374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77C131828749E35C8753534 /* Pods-DoSplash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoSplash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Komal.DoSplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B6609C4253B4CEA0005A374 /* Build configuration list for PBXProject "DoSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6609DB253B4CF10005A374 /* Debug */,
+				4B6609DC253B4CF10005A374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6609DD253B4CF10005A374 /* Build configuration list for PBXNativeTarget "DoSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6609DE253B4CF10005A374 /* Debug */,
+				4B6609DF253B4CF10005A374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B6609C1253B4CEA0005A374 /* Project object */;
+}

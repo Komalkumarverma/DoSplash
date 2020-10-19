@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DSPhotoCollectionViewCell" id="gTV-IL-0wX" customClass="DSPhotoCollectionViewCell" customModule="DoSplash" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="487" height="262"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="487" height="262"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Rx-uL-nw3">
+                        <rect key="frame" x="0.0" y="0.0" width="487" height="262"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jgG-hJ-KtD">
+                                <rect key="frame" x="0.0" y="0.0" width="487" height="262"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pqe-CC-lce">
+                                <rect key="frame" x="0.0" y="0.0" width="487" height="262"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QEW-1C-3pO">
+                                <rect key="frame" x="447" y="222" width="30" height="30"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="EN8-Qe-jZr"/>
+                                    <constraint firstAttribute="height" constant="30" id="KgX-Uy-dPN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOSPLASH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkw-39-tLg">
+                                <rect key="frame" x="50" y="50" width="387" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="CGm-JN-3lW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top photos from unsplash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdS-I3-cvW">
+                                <rect key="frame" x="30" y="95" width="427" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="HTk-31-pwE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="QEW-1C-3pO" secondAttribute="bottom" constant="10" id="21W-NF-Z1N"/>
+                            <constraint firstItem="Pqe-CC-lce" firstAttribute="leading" secondItem="8Rx-uL-nw3" secondAttribute="leading" id="7D0-DF-Sur"/>
+                            <constraint firstItem="jgG-hJ-KtD" firstAttribute="top" secondItem="8Rx-uL-nw3" secondAttribute="top" id="Ad4-vw-Lv5"/>
+                            <constraint firstAttribute="bottom" secondItem="jgG-hJ-KtD" secondAttribute="bottom" id="Adb-rP-Gsb"/>
+                            <constraint firstItem="Xkw-39-tLg" firstAttribute="leading" secondItem="8Rx-uL-nw3" secondAttribute="leading" constant="50" id="Jhl-D7-uqt"/>
+                            <constraint firstItem="Xkw-39-tLg" firstAttribute="top" secondItem="8Rx-uL-nw3" secondAttribute="top" constant="50" id="KtF-qX-jCU"/>
+                            <constraint firstItem="GdS-I3-cvW" firstAttribute="leading" secondItem="8Rx-uL-nw3" secondAttribute="leading" constant="30" id="OnB-Fg-eXB"/>
+                            <constraint firstItem="jgG-hJ-KtD" firstAttribute="leading" secondItem="8Rx-uL-nw3" secondAttribute="leading" id="PKJ-vt-t9c"/>
+                            <constraint firstAttribute="trailing" secondItem="GdS-I3-cvW" secondAttribute="trailing" constant="30" id="QWl-1n-tlH"/>
+                            <constraint firstAttribute="trailing" secondItem="QEW-1C-3pO" secondAttribute="trailing" constant="10" id="RPh-vg-6W7"/>
+                            <constraint firstAttribute="bottom" secondItem="Pqe-CC-lce" secondAttribute="bottom" id="UD7-UJ-KyP"/>
+                            <constraint firstItem="GdS-I3-cvW" firstAttribute="top" secondItem="Xkw-39-tLg" secondAttribute="bottom" constant="5" id="g6D-Z5-ATR"/>
+                            <constraint firstAttribute="trailing" secondItem="Pqe-CC-lce" secondAttribute="trailing" id="gU8-f2-exJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Xkw-39-tLg" secondAttribute="trailing" constant="50" id="hq6-2a-qHp"/>
+                            <constraint firstAttribute="trailing" secondItem="jgG-hJ-KtD" secondAttribute="trailing" id="mHW-jl-H7a"/>
+                            <constraint firstItem="Pqe-CC-lce" firstAttribute="top" secondItem="8Rx-uL-nw3" secondAttribute="top" id="sG4-Dk-e2S"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8Rx-uL-nw3" secondAttribute="trailing" id="IPY-7n-oX7"/>
+                <constraint firstItem="8Rx-uL-nw3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Jce-eB-qqX"/>
+                <constraint firstItem="8Rx-uL-nw3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="K8n-Mk-uog"/>
+                <constraint firstAttribute="bottom" secondItem="8Rx-uL-nw3" secondAttribute="bottom" id="bQU-OF-kJU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="487" height="262"/>
+            <connections>
+                <outlet property="backView" destination="jgG-hJ-KtD" id="PjS-GA-R30"/>
+                <outlet property="desc_Label" destination="GdS-I3-cvW" id="j9o-D7-f7u"/>
+                <outlet property="info_Label" destination="Xkw-39-tLg" id="1Dx-Jy-sbx"/>
+                <outlet property="photo_Image" destination="Pqe-CC-lce" id="T8d-6O-qwn"/>
+                <outlet property="profile_Image" destination="QEW-1C-3pO" id="cod-no-kfc"/>
+            </connections>
+            <point key="canvasLocation" x="221.01449275362322" y="129.24107142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>

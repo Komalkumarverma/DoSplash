@@ -16,7 +16,6 @@ class CustomFooterView : UICollectionReusableView {
     @IBOutlet weak var imageView : UIImageView!
     var isAnimatingFinal:Bool = false
     var currentTransform:CGAffineTransform?
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         self.prepareInitialAnimation()

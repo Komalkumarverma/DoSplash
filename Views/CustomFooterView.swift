@@ -31,7 +31,6 @@ class CustomFooterView : UICollectionReusableView {
         self.currentTransform = inTransform
     }
     
-    //reset the animation
     func prepareInitialAnimation() {
         self.isAnimatingFinal = false
     }

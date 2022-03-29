@@ -24,7 +24,6 @@ class CustomFooterView : UICollectionReusableView {
     override func layoutSubviews() {
         super.layoutSubviews()
     }
-    
     func setTransform(inTransform:CGAffineTransform, scaleFactor:CGFloat) {
         if isAnimatingFinal {
             return
